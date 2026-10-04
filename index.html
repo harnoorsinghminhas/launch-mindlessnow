@@ -65,9 +65,19 @@
 <p class="script" id="script"></p>
 <p class="copyrow"><button class="btn ghost sm" id="copyPause" type="button">Copy this pause to send</button> <span class="fine" id="copyNote" role="status"></span></p>
 </div>
-<div class="sample"><button class="play" type="button" disabled aria-label="Play sample (sample coming)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></button><p><span class="lab">Sample coming</span><br>The same pause, read aloud. No recording is published yet; we will put the first one here.</p></div>
+<div class="sample"><p><span class="lab">Sample pause, read aloud</span><br>About 70 seconds, read by an artificial intelligence voice (Gemini text-to-speech). Press play.</p><audio controls preload="none" src="assets/audio/sample.mp3"></audio><details><summary>Read the transcript</summary><p>This is a Mindless Now pause. One minute, between one prompt and the next.</p><p>Stop typing. Let your hands rest on the desk. Feel the surface under your palms.</p><p>Take a slow breath in. And a slower breath out.</p><p>You have been inside a screen, talking to a machine that answers instantly. Your own mind does not need to be that fast.</p><p>Breathe in again. Let the out breath carry your shoulders down.</p><p>Notice the room around you. A sound. The light. The air on your skin.</p><p>You are here, and nothing is waiting for you in this moment.</p><p>One more breath.</p><p>When you are ready, go back to your work, a little slower, and a little clearer.</p><p>This sample is part of our Founders&#x27; Preview, read by an artificial intelligence voice.</p></details></div>
 </div>
 </section>
+
+<section class="today" id="today" aria-labelledby="today-h">
+  <div class="today-in">
+    <p class="today-kick" id="today-date">Today</p>
+    <h2 id="today-h">Today&#x27;s pause</h2>
+    <p class="today-intro">One pause for the moment between prompts, picked by the date. It changes every day.</p>
+    <article class="today-card" aria-live="polite"><h3 id="today-t">After a long chat</h3><p id="today-b">Close your eyes for three breaths before the next prompt. Let the last answer settle.</p><p class="today-n" id="today-n">Entry 1 of 16. A new one every day.</p></article>
+  </div>
+</section>
+
 <section class="wrap rail" aria-labelledby="rh">
 <h2 id="rh">A pause that fits where you already are</h2>
 <ol class="day">
@@ -91,5 +101,6 @@
 </main>
 <footer class="wrap foot"><p>Mindless Now · &copy; <span class="js-year">2026</span></p><p class="legal">Mindless Now is a pause, not a treatment: it is not therapy or medical advice. Everything on this page is pre-launch. Prices are all-in, with no tax line. Reservations are refundable on request before launch only.</p><p class="trade-name"><span>Part of Superintelligence, the home of superintelligence. Est. October 3, 2026.</span> <span>Superintelligence, a trade name of HM Tech Solutions LLC</span></p>
 </footer>
+<script src="assets/today.js" defer></script>
 </body>
 </html>
